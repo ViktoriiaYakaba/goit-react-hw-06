@@ -11,7 +11,7 @@ const Contact = ({ contact }) => {
   return (
     <div>
       <p>Name: {contact.name}</p>
-      <p>Phone Number: {contact.phoneNumber}</p> {/* Modifica qui per utilizzare phoneNumber */}
+      <p>Phone Number: {contact.phoneNumber}</p> 
       <button onClick={handleDelete}>Delete</button>
     </div>
   );
