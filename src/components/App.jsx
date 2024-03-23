@@ -1,6 +1,7 @@
 import ContactForm from "./ContactForm";
 import SearchBox from "./SearchBox";
 import ContactList from "./ContactsList";
+import './App.css';
 
 
 const App = () => {
