@@ -11,13 +11,14 @@ const listItemStyles = {
 
 const ContactList = () => {
   const contacts = useSelector(selectContacts);
+  console.log(contacts)
 
   return (
     <div>
       <h2 >Contact List</h2>
       <ul style={listItemStyles}>
         {contacts.map(contact => (
-          <Contact key={contact.id} contact={contact} />
+        <Contact key={contact.id} contact={contact} />
         ))}
       </ul>
     </div>

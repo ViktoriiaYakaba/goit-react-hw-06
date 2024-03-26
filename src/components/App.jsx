@@ -10,8 +10,8 @@ const App = () => {
             <h1>Phonebook</h1>
             <ContactForm />
             <SearchBox />
-           <ContactList /> 
+            <ContactList />
         </div>
     )
-}
+};
 export default App;
