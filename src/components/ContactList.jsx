@@ -2,12 +2,12 @@ import { useSelector } from 'react-redux';
 import { selectContacts } from '../redux/contactsSlice';
 import Contact from './Contact';
 
-
 const listItemStyles = {
   display: "flex",
   flexWrap: "wrap",
   gap: 25,
 }
+
 
 const ContactList = () => {
   const contacts = useSelector(selectContacts);
