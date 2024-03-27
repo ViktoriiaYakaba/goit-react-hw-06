@@ -1,6 +1,6 @@
 import ContactForm from "./ContactForm";
 import SearchBox from "./SearchBox";
-import ContactList from "./ContactsList";
+import ContactList from "./ContactList";
 import './App.css';
 
 
